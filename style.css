@@ -1,0 +1,399 @@
+*{
+   margin: 0;
+   font-family: 'Lora', sans-serif;  
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 0.1fr 2fr 3fr 2fr;   
+    gap: 10px;
+    grid-template-rows: 650px ;   
+}
+.upper{
+    position: absolute; 
+}
+.upper .inner{
+    margin-top: 30px;
+}
+
+.lower{
+    position: absolute;    
+    top: 90%;
+}
+.upper img{
+    height: 30px;
+    width: 30px;
+}
+ul{
+    list-style: none;
+    left: 0;
+}
+li button:hover{
+    background-color: rgb(18, 5, 158);
+    color: white;
+
+}
+
+.grid-items1{
+    background-color: #fff;
+    margin-right: 20px ;
+    padding: 10px;
+}
+
+.nav-btn{
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: none;
+    overflow: hidden;
+    opacity: 0.8;    
+}
+.grid-items2{
+    background-color: #fffdfa;
+    margin-left: 20px;
+    height: 100%;
+    border-radius: 8px;
+
+}
+.grid-items2 img{   
+    position: relative;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    left: 60px;
+    float: left;
+}
+.pr {
+    margin-left: 150px;
+}
+.name{
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 30px;
+    padding: 0;
+}
+.income{
+    position: relative;
+    top: 5%;
+    left: 60px;
+    
+}
+.income h4{
+    font-weight:bold ;
+    font-size: 10px;
+}
+.income h1{
+    font-weight: bolder ;
+    font-size: 20px ;
+}
+.income h5{
+    font-weight: bolder;
+    font-size: 15px;
+}
+.sub{
+    opacity: 0.4;
+    font-size: 12px;
+}
+.income button{
+    border-radius: 8px;
+    background-color: rgb(42, 36, 211);
+}
+.transaction h1{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.transaction{
+    position: relative;
+    top: 10%;
+    left: 60px;
+}
+.date{
+    opacity: 0.4;
+}
+.transaction h5{
+    font-size:10px ;
+    font-weight: bold;
+}
+hr{
+    width: 170px;
+    color: gray;
+    border-style: hidden;
+       
+}
+.top-sec{
+    position: relative;
+    top: 6%;
+    left: 60px;
+
+}
+.top-sec h4{
+    font-size: 10px;
+    font-weight: bolder;
+    color: rgb(5, 5, 225);
+    margin: 2px;
+}
+.top-sec h3{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+}
+.goal{
+    position: relative;
+    top: 12%;
+    left: 60px;
+    display: flex;
+    gap: 25px;
+    font-size: 10px;
+}
+.goal h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    border-style: none none solid none;
+    border-color: rgb(93, 93, 223);
+}
+.mid-sec{
+    position: relative;
+    top: 20%;
+    left: 60px;
+}
+.mid-sec h5{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.low-sec{
+    position: relative;
+    top: 25%;
+    left: 60px;
+}
+.low-sec .des{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.des span{
+    opacity: 0.5;
+    font-size: 12px;
+}
+.btn-container{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.btn-container button{
+    border: none;
+    padding: 10px;
+    background-color: #fff;
+}
+.btn-container span{
+    font-size: 12px;
+    font-weight: bold;
+}
+.img-container{
+    position: relative;
+    left: 40px;
+    top: 5%;
+}
+.upper-container{
+    position: relative;
+    top: 5%;
+    left: 60px;
+    background-color: #fffdfa;
+    padding: 10px;
+}
+.upper-container h5{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.upper-container h4{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.slider{
+    height: 2px;
+}
+.span1{
+    margin-left: 10px;
+}
+.span2{
+    margin-left: 70px;
+}
+.upper-container .btn{
+    width: 40%;
+    position: relative;
+    left: 10px;
+    margin-top: 10px;  
+}
+.upper-container p{
+    position: relative;
+    left: 40px;
+    font-size:12px ;
+    margin-top: 10px;
+}
+.vl {
+    border-left: 2px solid gray;
+    height: 100px;
+    
+}
+.lower-container{
+    position: relative;
+    top: 10%;
+    left: 60px;
+    
+}
+.ad{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+.ad span{
+    font-weight: bolder;
+}
+.lower-container h5{
+    margin-top: 5px;
+    font-size: 12px;
+}
+.lower-container a{
+    font-size: 12px;
+    font-weight: bold;
+}
+.content{
+    margin-left: 20px;  
+}
+
+@media screen and (max-width: 600px){
+
+    .grid-container{
+        display: block;
+        width: 100%;   
+    }
+    .profile{
+        margin: 0; 
+    }
+    .income{
+        margin-top: 10%;
+    }
+    .income h1{
+        font-size:30px;
+        font-weight: bolder;
+    }
+    .dropdown .btn{
+        margin-top: 20px;
+        margin-left: 40px;
+        width: 50%;
+    }
+    .transaction{
+        margin-top: 30px;
+    }
+    nav .upper{
+        background-color: #F2FAFA;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        z-index: 1;
+        border-radius: 25px;
+        height: 50px;
+        width: 100%;      
+    }
+    nav .inner{
+        position: fixed;
+        top: 76%;
+        left: 170px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .upper li{
+        padding: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lower{
+        position: fixed;
+        top: 0%;
+        left: 80%;
+        display: flex;
+        z-index: 1;
+    }
+    .lower li{
+        display: flex;   
+        padding: 20px;
+    }
+    .top-sec{
+        margin-top: 50px;
+    }
+    .top-sec h3{
+        padding: 10px 0px;
+    }
+   .goal{
+    display: block;
+    padding: 20px 0px;
+   }
+   .first{
+    padding-bottom: 20px;
+   }
+   .first input{
+    width: 60vh;
+   }
+   .goal .second{
+    float: left;
+    padding-right: 10%;
+   }
+   .mid-sec h5{
+    padding: 20px 0px;
+   }
+   .low-sec{
+    padding: 20px 0px;
+   }
+   .btn-container{
+    margin: 0;
+    padding: 0;
+}
+.btn-container button{
+      padding: 5px;
+      margin-top: 20px
+}
+.btn-container span{
+    padding-right: 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.btn-container hr{
+    width: 300px;
+    margin: 0;
+}
+.img-container img{
+    height: 150px;   
+}
+.upper-container input{
+   width: 300px;
+}
+.upper-container hr{
+    width: 300px;
+}
+.upper-container .span1{
+    margin-left: 170px;
+}
+.upper-container .span2{
+    margin-left: 230px;
+}
+.upper-container .btn{
+    width: 70%;
+    left: 5px;
+    margin-top: 20px;  
+}
+.upper-container p{
+    left: 120px;
+    margin-top: 20px;
+}
+.lower-container{
+    position: fixed;
+    left: 100%;
+}
+  
+}

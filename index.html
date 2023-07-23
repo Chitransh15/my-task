@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lora&family=Ubuntu&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="grid-container">
+      <nav class="grid-items1">
+        <div>
+          <ul class="upper" >
+            <li>
+               <img src="./images/download.png" alt="Logo">
+            </li>
+            <li>
+              <button class="nav-btn">
+                <i class="bi bi-search"></i>
+              </button>
+            </li>
+            <div class="inner">
+            <li >
+              <button class="  nav-btn">
+                <i class="bi bi-house"></i>
+              </button>
+            </li>
+            <li >
+              <button class=" nav-btn">
+                <i class="bi bi-newspaper"></i>
+              </button>
+            </li>
+            <li>
+              <button class=" nav-btn">
+                <i class="bi bi-card-list"></i>
+              </button>
+            </li>
+            <li>
+              <button class=" nav-btn">
+                <i class="bi bi-person"></i>
+              </button>
+            </li>
+          </div>
+          </ul>
+        </div>
+        <div >
+          <ul class="lower">
+            <li class="bell">
+              <button class="nav-btn">
+                <i class="bi bi-bell"></i>
+              </button>
+            </li>
+            <li>
+              <button class="nav-btn">
+                <i class="bi bi-box-arrow-right"></i>
+              </button>
+            </li>
+          </ul>
+        </div>     
+      </nav>
+      
+      <div class="grid-items2">
+        <div class="profile">
+         <img src="./images/photo-1506004896010-edbb40609353.jpg"  alt="A person sitting on the rocks">
+         <h1 class="pr name">Hi Mike,</h1>
+         <p class="pr des">welcome back.</p>
+        </div>
+        <div class="income">
+          <h4 class="today">Today</h4>
+          <h1 class="big ">$19,892</h1>
+          <h6 class="sub">Account Balance</h6>
+          <h5 class="big">$4,000</h5>
+          <h6 class="sub">Year-to-Date contribution</h6>
+          <h5 class="big inline">$1,892</h5>
+          <h6 class="sub inline">Total interest</h6>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              I want to
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Donate</a></li>
+              <li><a class="dropdown-item" href="#">Invest</a></li>
+              <li><a class="dropdown-item" href="#">Check Interest</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="transaction">
+          <h1>Recent transactions</h1>
+          <h5 class="date">2020-08-07</h5>
+          <h5>Withdrawal Transfer to Bank-XXX11</h5>
+          <hr/>
+          <h5 class="date">2020-07-21</h5>
+          <h5>Withdrawal Transfer to Bank-XXX11</h5>
+          <hr/>
+          <h5 class="date">2020-07-16</h5>
+          <h5>Withdrawal Transfer to Bank-XXX11</h5>
+          <hr/>
+        </div>
+      </div>
+      <div class="grid-items3">
+        <div class="top-sec">
+          <h4>Retirement Income</h4>
+          <h3>Starting Year 2056</h3>
+        </div>
+        <div class="goal">
+          <div class="first">
+           <h3>$300,000</h3>
+           <input class="input" type="search-box" placeholder="My Goal"/>
+          </div>
+          <div class="second">
+           <h3>59%</h3>
+           <input class="input" type="text" placeholder="Goal Achieved"/>
+          </div>
+          <div class="third">
+           <h3>$300</h3>
+           <input class="input" type="text" placeholder="Est. Monthly Income"/>
+          </div>
+        </div>
+        <div class="mid-sec">
+          <h5>Contributions Overtime</h5>
+          <img src="images/Graphs.png" alt="contribution graph"/>
+        </div>
+        <div class="low-sec">
+         <p class="des">How do I compare my peers?<br/>
+         <span>These numbers represent current goal achievement</p>
+         <div class="btn-container">
+          <span>Age: <button>Under 30<i class='bx bx-chevron-down'></i></button></span><hr/>
+          <span>Salary: <button>K 20 - K 30<i class='bx bx-chevron-down'></i></button></span><hr/>
+          <span>Gender: <button>Male <i class='bx bx-chevron-down'></i></button></span><hr/>
+         </div>
+         <div class="img-container">
+          <img src="./images/statistics.png" alt="statistics">
+         </div>
+         
+         
+
+        </div>
+      </div>
+      <div class="grid-items4">
+        <div class="upper-container">
+         <h5>Retirement Strategy</h5>
+         <h4>Employee Contributions</h4>
+         <input type="range" min="1" max="100" value="12" class="slider" id="myRange">
+         <span id="range-value">12%</span> 
+         <h4>Retirement Age</h4>
+         <input type="range" min="1" max="100" value="65" class="slider" id="myRange" width="">
+         <span id="range-value">  65</span>   
+         <hr/>
+         <h4>Employer Contribution<span class="span1">8.4%</span></h4>
+         <h4>Interest Rate<span class="span2">5%</span></h4>
+         <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Update
+         </button>
+         <p><a href="#" class="link-underline-light">View Help Docs</a></p>
+       </div>
+       <div class="lower-container">
+        <div class="vl">
+         <div class="content">
+        <p class="ad">Are you considering a<br/>
+        <span class="bold">Housing Advance?</span></p>
+        <h5>Limited time reduced interest</h5>
+        <p><a href="#" class="link-underline-light">Learn More ></a></p>
+      </div>
+    </div>
+       </div>
+      </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
